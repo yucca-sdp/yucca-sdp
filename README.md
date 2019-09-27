@@ -2,8 +2,8 @@
 **Yucca Smart Data Platform** è una piattaforma cloud aperta e precompetitiva della Regione Piemonte, realizzata dal CSI Piemonte con tecnologie open source.
 # Getting Started
 La piattaforma **Yucca** è composta dai seguenti prodotti:
-- [Yucca Data Service](TODO) (API REST)
-- [Yucca Userportal](TODO) (Front-End Web)
+- [Yucca Data Service](https://github.com/yucca-sdp/yucca-dataservice) (API REST)
+- [Yucca Userportal](https://github.com/yucca-sdp/yucca-userportal) (Front-End Web)
 # Prerequisites
 I prerequisiti per l'installazione della piattaforma sono i seguenti:
 ## Software
