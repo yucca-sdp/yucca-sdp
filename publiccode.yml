@@ -1,0 +1,123 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+name: Yucca Smart Data Platform
+url: 'https://github.com/yucca-sdp'
+releaseDate: '2019-10-01'
+developmentStatus: stable
+softwareType: standalone/web
+platforms:
+  - web
+categories:
+  - business-intelligence
+  - data-analytics
+  - data-collection
+  - data-visualization
+  - warehouse-management
+inputTypes:
+  - text/csv
+  - application/json
+  - text/plain
+  - application/sql
+  - application/octect-stream
+usedBy:
+  - Regione Piemonte
+  - Città Metropolitana di Torino
+  - Città di Torino
+  - Comune di Biella
+  - Comune di Vercelli
+  - Comune di Alessandria
+  - Comune di Chieri
+  - ARPA Piemonte
+  - CSP
+  - SIMULARIA
+dependsOn:
+  open:
+    - name: Linux
+    - name: JBoss
+      versionMin: '6.4'
+      versionMax: 7.1.1
+    - name: PostgreSQL
+    - name: Apache Web Server
+      version: 2.4.0
+    - name: Apache ActiveMQ
+      version: 5.9.0
+    - name: WSO2 Identity Server
+      version: 5.0.0
+    - name: WSO2 Api Manager
+      version: 1.7.0
+  proprietary:
+    - name: Hortonwork Hadoop Data Plaftform
+      version: 2.6.0
+outputTypes:
+  - text/csv
+  - application/json
+  - text/plain
+  - application/sql
+  - application/octect-stream
+logo: img/logo.png
+maintenance:
+  type: internal
+  contacts:
+    - name: Anna Cavallo
+      email: anna.cavallo@csi.it
+    - name: Gabriella Ferraresi
+      email: gabriella.ferraresi@csi.it
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: Regione Piemonte
+  repoOwner: CSI Piemonte
+intendedAudience:
+  scope:
+    - infrastructures
+localisation:
+  localisationReady: true
+  availableLanguages:
+    - en
+    - it
+it:
+  riuso:
+    codiceIPA: csi_piem
+  piattaforme:
+    spid: true
+  conforme:
+    lineeGuidaDesign: true
+    modelloInteroperabilita: true
+    misureMinimeSicurezza: true
+    gdpr: true
+description:
+  it:
+    genericName: Smart Data Platform
+    shortDescription: >-
+      Piattaforma  cloud  disponibile  per  privati e PA che offre strumenti per
+      sperimentare e creare soluzioni tecnologiche di data analysis.
+    longDescription: >
+      Yucca Smart Data Platform è una piattaforma cloud aperta e precompetitiva
+      disponibile per soggetti privati e pubblici che offre strumenti per
+      sperimentare e creare soluzioni tecnologiche innovative legate al mondo
+      dei dati.
+
+
+      Si tratta di un sistema che aggrega dati provenienti dall'Internet of
+      Things (telecamere, sensori, centraline meteo), dall'Internet of People
+      (es. tweet) e dati pubblici e privati, prevede la condivisione selettiva
+      delle informazioni raccolte, consente l'elaborazione in self service dei
+      dati in real-time e strumenti evoluti di data analysis e supporta
+      l’esposizione delle informazioni (dati e metadati) via API. La piattaforma
+      offre funzionalità per creare nuove informazioni a valore aggiunto e
+      abilita la realizzazione di soluzioni end-to-end su una molteplicità di
+      temi. 
+    features:
+      - >-
+        Condividere le informazioni in modo selettivo secondo livelli
+        private/shared/open.
+      - >-
+        Fruire delle informazioni gestite nello storage (dati e metadati) con
+        API/widget/infografiche.
+      - 'Garantire strumenti e standard di meta datazione, sicurezza e privacy.'
+      - Effettuare analisi real time (CEP&RT analytics).
+      - Monitoraggio dei flussi (Stream Monitoring).
+    videos:
+      - 'https://www.youtube.com/watch?v=yyPe0FY7ges'
