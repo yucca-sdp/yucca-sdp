@@ -79,7 +79,7 @@ localisation:
     - it
 it:
   riuso:
-    codiceIPA: csi_piem
+    codiceIPA: r_piemon
   piattaforme:
     spid: true
   conforme:
