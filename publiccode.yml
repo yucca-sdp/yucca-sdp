@@ -4,7 +4,7 @@
 
 publiccodeYmlVersion: '0.2'
 name: Yucca Smart Data Platform
-url: 'https://github.com/yucca-sdp'
+url: 'https://github.com/yucca-sdp/yucca-sdp'
 releaseDate: '2019-10-01'
 developmentStatus: stable
 softwareType: standalone/web
