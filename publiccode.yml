@@ -5,7 +5,7 @@
 publiccodeYmlVersion: '0.2'
 name: Yucca Smart Data Platform
 url: 'https://github.com/yucca-sdp/yucca-sdp'
-releaseDate: '2020-06-03'
+releaseDate: '2021-03-03'
 developmentStatus: stable
 softwareType: standalone/web
 platforms:
@@ -26,13 +26,8 @@ usedBy:
   - Regione Piemonte
   - Città Metropolitana di Torino
   - Città di Torino
-  - Comune di Biella
-  - Comune di Vercelli
-  - Comune di Alessandria
-  - Comune di Chieri
   - ARPA Piemonte
   - CSP
-  - SIMULARIA
 dependsOn:
   open:
     - name: Linux
@@ -49,8 +44,8 @@ dependsOn:
     - name: WSO2 Api Manager
       version: 1.7.0
   proprietary:
-    - name: Hortonwork Hadoop Data Plaftform
-      version: 2.6.0
+    - name: Hortonwork Cloudera Hadoop Data Plaftform
+      version: 3.1.5
 outputTypes:
   - text/csv
   - application/json
@@ -61,8 +56,8 @@ logo: img/logo.png
 maintenance:
   type: internal
   contacts:
-    - name: Anna Cavallo
-      email: anna.cavallo@csi.it
+    - name: Marco Boero
+      email: marco.boero@csi.it
     - name: Gabriella Ferraresi
       email: gabriella.ferraresi@csi.it
 legal:
